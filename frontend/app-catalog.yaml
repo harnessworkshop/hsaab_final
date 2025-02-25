@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hsaab_frontend
+  description: my final test
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: harnessworkshop/hsaab_final
+    #harness.io/pipelines: |
+    #  build and deploy: TBD
+  tags:
+    - hsaab
+    - frontend
+spec:
+  type: service
+  owner: hassan.saab@harness.io
+  lifecycle: experimental
+  consumesApis:
+    - spotify
+  providesApis:
+    - petstore
+#  dependsOn:
+#    - component:default/yournamehere_db
