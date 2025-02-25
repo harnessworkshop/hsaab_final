@@ -55,7 +55,7 @@ function App() {
         <div className="hero__qr">
           <QRCodeSVG value={window.location.href} />
         </div>
-        <h1 className="hero__title">Devops made simple.</h1>
+        <h1 className="hero__title">Devops made simple. super simple.</h1>
       </div>
     </div>
   )
